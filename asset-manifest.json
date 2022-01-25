@@ -1,7 +1,7 @@
 {
   "main.css": "/dynamicGame/static/css/main.b65398f6.chunk.css",
-  "main.js": "/dynamicGame/static/js/main.eeac1c35.chunk.js",
-  "main.js.map": "/dynamicGame/static/js/main.eeac1c35.chunk.js.map",
+  "main.js": "/dynamicGame/static/js/main.c8f84736.chunk.js",
+  "main.js.map": "/dynamicGame/static/js/main.c8f84736.chunk.js.map",
   "runtime~main.js": "/dynamicGame/static/js/runtime~main.3efa5ce4.js",
   "runtime~main.js.map": "/dynamicGame/static/js/runtime~main.3efa5ce4.js.map",
   "static/js/2.1311038d.chunk.js": "/dynamicGame/static/js/2.1311038d.chunk.js",
@@ -9,7 +9,7 @@
   "static/js/3.b7b302a9.chunk.js": "/dynamicGame/static/js/3.b7b302a9.chunk.js",
   "static/js/3.b7b302a9.chunk.js.map": "/dynamicGame/static/js/3.b7b302a9.chunk.js.map",
   "index.html": "/dynamicGame/index.html",
-  "precache-manifest.fae2333ff28dbb0b03b8d8d6a7927a6e.js": "/dynamicGame/precache-manifest.fae2333ff28dbb0b03b8d8d6a7927a6e.js",
+  "precache-manifest.4daca368d79c283b09191aa27ff7ff77.js": "/dynamicGame/precache-manifest.4daca368d79c283b09191aa27ff7ff77.js",
   "service-worker.js": "/dynamicGame/service-worker.js",
   "static/css/main.b65398f6.chunk.css.map": "/dynamicGame/static/css/main.b65398f6.chunk.css.map",
   "static/media/1.2.6.4_apple_drag.png": "/dynamicGame/static/media/1.2.6.4_apple_drag.d625354e.png",

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "19e8a062e433568dd848",
+    "revision": "b0dbb52e7e3c9bc8b5cc",
     "url": "/dynamicGame/static/css/main.b65398f6.chunk.css"
   },
   {
-    "revision": "19e8a062e433568dd848",
-    "url": "/dynamicGame/static/js/main.eeac1c35.chunk.js"
+    "revision": "b0dbb52e7e3c9bc8b5cc",
+    "url": "/dynamicGame/static/js/main.c8f84736.chunk.js"
   },
   {
     "revision": "91a0f9545b5f7f0facde",
@@ -512,7 +512,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/BodoAmat.cabbe64a.otf"
   },
   {
-    "revision": "326ad04942e5effda00f4f642eead326",
+    "revision": "9bcb21e75830baaa996acec420e21181",
     "url": "/dynamicGame/index.html"
   }
 ];
