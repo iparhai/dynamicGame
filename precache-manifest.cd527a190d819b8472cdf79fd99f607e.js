@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b0dbb52e7e3c9bc8b5cc",
-    "url": "/dynamicGame/static/css/main.b65398f6.chunk.css"
+    "revision": "5c82a0923acda684c074",
+    "url": "/dynamicGame/static/css/main.a65cf89f.chunk.css"
   },
   {
-    "revision": "b0dbb52e7e3c9bc8b5cc",
-    "url": "/dynamicGame/static/js/main.c8f84736.chunk.js"
+    "revision": "5c82a0923acda684c074",
+    "url": "/dynamicGame/static/js/main.f93a34b0.chunk.js"
   },
   {
-    "revision": "91a0f9545b5f7f0facde",
-    "url": "/dynamicGame/static/js/runtime~main.3efa5ce4.js"
+    "revision": "88f93e8b4aa4856d61a0",
+    "url": "/dynamicGame/static/js/runtime~main.c8d47bc4.js"
   },
   {
-    "revision": "5f671c62b74c0dd200c9",
-    "url": "/dynamicGame/static/js/2.1311038d.chunk.js"
+    "revision": "e5a9d269d30b86a926be",
+    "url": "/dynamicGame/static/js/2.8564cdc0.chunk.js"
   },
   {
-    "revision": "4370d14b9f88b2735a45",
-    "url": "/dynamicGame/static/js/3.b7b302a9.chunk.js"
+    "revision": "64987ec32534f81c1e19",
+    "url": "/dynamicGame/static/js/3.95ddb3bc.chunk.js"
   },
   {
     "revision": "0c532cb62ab30c39f17c81bf7e35ea89",
@@ -336,6 +336,10 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/longest.20abbea8.png"
   },
   {
+    "revision": "ccc5d2dd89f42b3c8991eca39bdd7986",
+    "url": "/dynamicGame/static/media/result_button.ccc5d2dd.png"
+  },
+  {
     "revision": "eea42071967c990ec47110017f77e4d4",
     "url": "/dynamicGame/static/media/table-01-01.eea42071.png"
   },
@@ -512,7 +516,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/BodoAmat.cabbe64a.otf"
   },
   {
-    "revision": "9bcb21e75830baaa996acec420e21181",
+    "revision": "5c0133d618ed3471c69ea8e58a498ebb",
     "url": "/dynamicGame/index.html"
   }
 ];
