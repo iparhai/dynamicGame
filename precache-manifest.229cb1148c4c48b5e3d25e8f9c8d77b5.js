@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dffaef33299648214074",
-    "url": "/dynamicGame/static/css/main.d3698bf0.chunk.css"
+    "revision": "8cea95c526a464777fd2",
+    "url": "/dynamicGame/static/css/main.b43cc277.chunk.css"
   },
   {
-    "revision": "dffaef33299648214074",
-    "url": "/dynamicGame/static/js/main.c1631d97.chunk.js"
+    "revision": "8cea95c526a464777fd2",
+    "url": "/dynamicGame/static/js/main.cb421ef9.chunk.js"
   },
   {
     "revision": "efdf8ec7ba4aa167d87c",
@@ -101,23 +101,23 @@ self.__precacheManifest = [
   },
   {
     "revision": "d625354e0fe3750134af83e0e4faefd4",
-    "url": "/dynamicGame/static/media/1.2.6.4_apple_drag.d625354e.png"
+    "url": "/dynamicGame/static/media/1.2.6.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19_apple_drag.d625354e.png"
   },
   {
     "revision": "411c4e6a0a9e83696dc8f57a70f342c0",
-    "url": "/dynamicGame/static/media/1.2.6.4_banana_drag.411c4e6a.png"
+    "url": "/dynamicGame/static/media/1.2.6.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19_banana_drag.411c4e6a.png"
   },
   {
     "revision": "7498fd0032f151294c930c93367bd0f9",
-    "url": "/dynamicGame/static/media/1.2.6.4_carrot_drag.7498fd00.png"
+    "url": "/dynamicGame/static/media/1.2.6.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19_carrot_drag.7498fd00.png"
   },
   {
     "revision": "560c5f81cbe99a953264d06e0c7cd014",
-    "url": "/dynamicGame/static/media/1.2.6.4_cherry_drag.560c5f81.png"
+    "url": "/dynamicGame/static/media/1.2.6.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19_cherry_drag.560c5f81.png"
   },
   {
     "revision": "8506c659726847019116c0159642b02c",
-    "url": "/dynamicGame/static/media/1.2.6.4_dragon_fruit_drag.8506c659.png"
+    "url": "/dynamicGame/static/media/1.2.6.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19_dragon_fruit_drag.8506c659.png"
   },
   {
     "revision": "e036ffe49c3290b294f2edb25b336a5d",
@@ -540,7 +540,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/wrongAnswer.48b32efb.mp3"
   },
   {
-    "revision": "d69729fecd8f48a469c1d0f0e84dcb33",
+    "revision": "f9d4bda976a99f6f64f34ce91b10e079",
     "url": "/dynamicGame/index.html"
   }
 ];
