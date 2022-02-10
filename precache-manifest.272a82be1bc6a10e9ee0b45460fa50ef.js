@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "f3969e76b1d8d9e86c89",
-    "url": "/dynamicGame/static/css/main.a65cf89f.chunk.css"
+    "revision": "dffaef33299648214074",
+    "url": "/dynamicGame/static/css/main.d3698bf0.chunk.css"
   },
   {
-    "revision": "f3969e76b1d8d9e86c89",
-    "url": "/dynamicGame/static/js/main.2661645f.chunk.js"
+    "revision": "dffaef33299648214074",
+    "url": "/dynamicGame/static/js/main.c1631d97.chunk.js"
   },
   {
-    "revision": "88f93e8b4aa4856d61a0",
-    "url": "/dynamicGame/static/js/runtime~main.c8d47bc4.js"
+    "revision": "efdf8ec7ba4aa167d87c",
+    "url": "/dynamicGame/static/js/runtime~main.23a1c823.js"
   },
   {
-    "revision": "e5a9d269d30b86a926be",
-    "url": "/dynamicGame/static/js/2.8564cdc0.chunk.js"
+    "revision": "e24bb89bb21b4a1f2733",
+    "url": "/dynamicGame/static/js/2.096e1faf.chunk.js"
   },
   {
-    "revision": "64987ec32534f81c1e19",
-    "url": "/dynamicGame/static/js/3.95ddb3bc.chunk.js"
+    "revision": "978e0cd09fd7a784b45e",
+    "url": "/dynamicGame/static/js/3.997e0459.chunk.js"
   },
   {
     "revision": "0c532cb62ab30c39f17c81bf7e35ea89",
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "840e9ea45b2ca4c8353e4e0692a57c4a",
     "url": "/dynamicGame/static/media/oval-01.840e9ea4.png"
+  },
+  {
+    "revision": "cabbe64aebaa36b27d8d08835223139b",
+    "url": "/dynamicGame/static/media/BodoAmat.cabbe64a.otf"
   },
   {
     "revision": "eede19c0d5f0fccbd13a8117167352e7",
@@ -74,6 +78,26 @@ self.__precacheManifest = [
   {
     "revision": "be131439c2d655cab2ee58a55b11c165",
     "url": "/dynamicGame/static/media/buildingTall2-01.be131439.png"
+  },
+  {
+    "revision": "ddfd3d8d66842f5532199e98d8c3635d",
+    "url": "/dynamicGame/static/media/day_bg-01.ddfd3d8d.png"
+  },
+  {
+    "revision": "a88c3da926b5a4d9718ce5154f724422",
+    "url": "/dynamicGame/static/media/res_bg-01.a88c3da9.png"
+  },
+  {
+    "revision": "23dc97cf302ddf853c81e340baea6611",
+    "url": "/dynamicGame/static/media/oneRoman.23dc97cf.png"
+  },
+  {
+    "revision": "0a0ec6d25448035b316515f27a2723c8",
+    "url": "/dynamicGame/static/media/fiveRoman.0a0ec6d2.png"
+  },
+  {
+    "revision": "78859a26d02e9fbe9fe478ea82affd4c",
+    "url": "/dynamicGame/static/media/tenRoman.78859a26.png"
   },
   {
     "revision": "d625354e0fe3750134af83e0e4faefd4",
@@ -288,8 +312,8 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/avacado10-01.17b63c15.png"
   },
   {
-    "revision": "83e30e91c04bea075e24cb99a2258ec2",
-    "url": "/dynamicGame/static/media/board.83e30e91.png"
+    "revision": "381d702e6ff2a2e0df2c233f2242e658",
+    "url": "/dynamicGame/static/media/board_button.381d702e.png"
   },
   {
     "revision": "2de022ec3f3ad9d82c919050ece44677",
@@ -302,6 +326,10 @@ self.__precacheManifest = [
   {
     "revision": "92bec7dc682a73aa3ea3b776154066c3",
     "url": "/dynamicGame/static/media/card_2.92bec7dc.png"
+  },
+  {
+    "revision": "83e30e91c04bea075e24cb99a2258ec2",
+    "url": "/dynamicGame/static/media/class_board.83e30e91.png"
   },
   {
     "revision": "232132e841d3930cf9312824e87e8285",
@@ -512,11 +540,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/wrongAnswer.48b32efb.mp3"
   },
   {
-    "revision": "cabbe64aebaa36b27d8d08835223139b",
-    "url": "/dynamicGame/static/media/BodoAmat.cabbe64a.otf"
-  },
-  {
-    "revision": "63104a6d78d9ff0a695fd8f15d3a5eb3",
+    "revision": "d69729fecd8f48a469c1d0f0e84dcb33",
     "url": "/dynamicGame/index.html"
   }
 ];
