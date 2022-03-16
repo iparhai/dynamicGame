@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dynamicGame/precache-manifest.3c9ad185bdf7ac5891c40b19e252413c.js"
+  "/dynamicGame/precache-manifest.2d802310e9f6609417bd74cffa4670b8.js"
 );
 
 workbox.clientsClaim();
