@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "1beb02ae0a5cccd5e841",
-    "url": "/dynamicGame/static/css/main.460c2888.chunk.css"
+    "revision": "0ae718db1b53d9b9f2fd",
+    "url": "/dynamicGame/static/css/main.5b334d3a.chunk.css"
   },
   {
-    "revision": "1beb02ae0a5cccd5e841",
-    "url": "/dynamicGame/static/js/main.f7226dbc.chunk.js"
+    "revision": "0ae718db1b53d9b9f2fd",
+    "url": "/dynamicGame/static/js/main.d61ea873.chunk.js"
   },
   {
-    "revision": "da3425ca624662bf76a3",
-    "url": "/dynamicGame/static/js/runtime~main.5be20cac.js"
+    "revision": "8ef51f59fd664bc6bf9d",
+    "url": "/dynamicGame/static/js/runtime~main.ab75ca46.js"
   },
   {
-    "revision": "045bd7ec106bf2f5e568",
-    "url": "/dynamicGame/static/js/2.8a39ab6c.chunk.js"
+    "revision": "3a662b95df5057fc7b5e",
+    "url": "/dynamicGame/static/js/2.748e3c42.chunk.js"
   },
   {
-    "revision": "b4bcb783fca16128bc47",
-    "url": "/dynamicGame/static/js/3.f822b7c3.chunk.js"
+    "revision": "9b524b2acc9e2442af17",
+    "url": "/dynamicGame/static/js/3.987e6a53.chunk.js"
   },
   {
     "revision": "b1a5c384f3f30e3c2cea9bfa47c8ce4b",
@@ -536,6 +536,30 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/grandma.2f589392.gif"
   },
   {
+    "revision": "7b8ec038e3a3bbf6f574b9c46f7c1378",
+    "url": "/dynamicGame/static/media/plane.7b8ec038.png"
+  },
+  {
+    "revision": "378d75e35bfdeb379da3db0b486c1e86",
+    "url": "/dynamicGame/static/media/btn-01.378d75e3.png"
+  },
+  {
+    "revision": "04a5bc0950f348d657cf2c4be7a2cc02",
+    "url": "/dynamicGame/static/media/down-01.04a5bc09.png"
+  },
+  {
+    "revision": "a30df217d463a6d27dadb87acaf764b2",
+    "url": "/dynamicGame/static/media/shoot-01.a30df217.png"
+  },
+  {
+    "revision": "8dcd7f24f82c6e3aa3575c553c419369",
+    "url": "/dynamicGame/static/media/question-01.8dcd7f24.png"
+  },
+  {
+    "revision": "e4ac1bfe55d2d85e0c616215caa31735",
+    "url": "/dynamicGame/static/media/cross-01.e4ac1bfe.png"
+  },
+  {
     "revision": "cc62f394d90ea0ef38e5f3da370aefc8",
     "url": "/dynamicGame/static/media/cross.cc62f394.png"
   },
@@ -768,7 +792,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/cat.c72e5d9d.png"
   },
   {
-    "revision": "528c0faf45f0e4b748563d8a5561d9d6",
+    "revision": "105020ed8ea47d7ede93cb34ee8a4be5",
     "url": "/dynamicGame/index.html"
   }
 ];
