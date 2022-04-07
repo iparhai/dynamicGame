@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "0df410d2258f5ddd4790",
-    "url": "/dynamicGame/static/css/main.a59c1c1a.chunk.css"
+    "revision": "ae86f2ba87d287a6cc8d",
+    "url": "/dynamicGame/static/css/main.e4fbc3de.chunk.css"
   },
   {
-    "revision": "0df410d2258f5ddd4790",
-    "url": "/dynamicGame/static/js/main.a66b09ec.chunk.js"
+    "revision": "ae86f2ba87d287a6cc8d",
+    "url": "/dynamicGame/static/js/main.fcf5e480.chunk.js"
   },
   {
-    "revision": "8ef51f59fd664bc6bf9d",
-    "url": "/dynamicGame/static/js/runtime~main.ab75ca46.js"
+    "revision": "8df6fd1b27c896e5ab7f",
+    "url": "/dynamicGame/static/js/runtime~main.85311589.js"
   },
   {
-    "revision": "3a662b95df5057fc7b5e",
-    "url": "/dynamicGame/static/js/2.748e3c42.chunk.js"
+    "revision": "7854ec2c991556b76209",
+    "url": "/dynamicGame/static/js/2.c661e7bb.chunk.js"
   },
   {
-    "revision": "9b524b2acc9e2442af17",
-    "url": "/dynamicGame/static/js/3.987e6a53.chunk.js"
+    "revision": "afdd4199c34d6e045b13",
+    "url": "/dynamicGame/static/js/3.aeb77512.chunk.js"
   },
   {
     "revision": "b1a5c384f3f30e3c2cea9bfa47c8ce4b",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/oval-01.840e9ea4.png"
   },
   {
+    "revision": "d9e398530b7031d5833f171d8888fc56",
+    "url": "/dynamicGame/static/media/line1.d9e39853.png"
+  },
+  {
     "revision": "929e57cf3e3ae328a432043f5349a0de",
     "url": "/dynamicGame/static/media/lion.929e57cf.png"
   },
@@ -70,6 +74,10 @@ self.__precacheManifest = [
   {
     "revision": "cabbe64aebaa36b27d8d08835223139b",
     "url": "/dynamicGame/static/media/BodoAmat.cabbe64a.otf"
+  },
+  {
+    "revision": "ca4158825f66b0587acca1862b795eaf",
+    "url": "/dynamicGame/static/media/line2.ca415882.png"
   },
   {
     "revision": "427de6c1746ead37b20bf422bd609a39",
@@ -86,6 +94,10 @@ self.__precacheManifest = [
   {
     "revision": "cd06a02365c4391790a3399302739758",
     "url": "/dynamicGame/static/media/bike.cd06a023.png"
+  },
+  {
+    "revision": "e5076bdd2a2010a2d7c0802fd9688644",
+    "url": "/dynamicGame/static/media/spaceship.e5076bdd.png"
   },
   {
     "revision": "8d72f3b473dc3580bed7dcbc708bc8ff",
@@ -560,8 +572,44 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/cross-01.e4ac1bfe.png"
   },
   {
+    "revision": "4554a71a5b22591be74f0ccf23260b4d",
+    "url": "/dynamicGame/static/media/turtle.4554a71a.png"
+  },
+  {
+    "revision": "362dd2982727930510e0535bcaef490d",
+    "url": "/dynamicGame/static/media/turtle_left.362dd298.png"
+  },
+  {
+    "revision": "efef2d82cf68e13a2f73dc6733505d08",
+    "url": "/dynamicGame/static/media/right.efef2d82.gif"
+  },
+  {
+    "revision": "5d448f98f7dd2c51dd322bd52424ed03",
+    "url": "/dynamicGame/static/media/left.5d448f98.gif"
+  },
+  {
+    "revision": "212c4bcb95a3ce810e745bff36eb4bf4",
+    "url": "/dynamicGame/static/media/fishR.212c4bcb.gif"
+  },
+  {
+    "revision": "48d2eef01cecd55520ff1bf10c3e3748",
+    "url": "/dynamicGame/static/media/fishL.48d2eef0.gif"
+  },
+  {
+    "revision": "6f40b925808bcfceef28ee492480e926",
+    "url": "/dynamicGame/static/media/left.6f40b925.png"
+  },
+  {
+    "revision": "a989d2c605289d1ad02c3ab3f3dd0981",
+    "url": "/dynamicGame/static/media/right.a989d2c6.png"
+  },
+  {
     "revision": "cc62f394d90ea0ef38e5f3da370aefc8",
     "url": "/dynamicGame/static/media/cross.cc62f394.png"
+  },
+  {
+    "revision": "c72e5d9d5d922d586bff8f6d3bf3b6da",
+    "url": "/dynamicGame/static/media/cat.c72e5d9d.png"
   },
   {
     "revision": "65909baa9264b06b8c40219e39ba9240",
@@ -776,23 +824,19 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/bgGame-01.cf96b98d.svg"
   },
   {
-    "revision": "00f04165454c259e2fdc618fa5c353ac",
-    "url": "/dynamicGame/static/media/sky1.00f04165.jfif"
-  },
-  {
     "revision": "fb754bb979f4ee851799ab666c4b0ef6",
     "url": "/dynamicGame/static/media/city.fb754bb9.png"
+  },
+  {
+    "revision": "00f04165454c259e2fdc618fa5c353ac",
+    "url": "/dynamicGame/static/media/sky1.00f04165.jfif"
   },
   {
     "revision": "edff1c3241efb91f973b064bd7f36ee9",
     "url": "/dynamicGame/static/media/road.edff1c32.jpg"
   },
   {
-    "revision": "c72e5d9d5d922d586bff8f6d3bf3b6da",
-    "url": "/dynamicGame/static/media/cat.c72e5d9d.png"
-  },
-  {
-    "revision": "843dd54b1004a33201d069afe8a9e8f8",
+    "revision": "4d05cfa08152eab3e23bca2e992cf3e2",
     "url": "/dynamicGame/index.html"
   }
 ];
