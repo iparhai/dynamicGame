@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "d826a5134e34564086fc",
-    "url": "/dynamicGame/static/css/main.45fe8efb.chunk.css"
+    "revision": "faad3a25927bf0780ae1",
+    "url": "/dynamicGame/static/css/main.5abfbc2d.chunk.css"
   },
   {
-    "revision": "d826a5134e34564086fc",
-    "url": "/dynamicGame/static/js/main.fcf5e480.chunk.js"
+    "revision": "faad3a25927bf0780ae1",
+    "url": "/dynamicGame/static/js/main.afc5feb2.chunk.js"
   },
   {
-    "revision": "8df6fd1b27c896e5ab7f",
-    "url": "/dynamicGame/static/js/runtime~main.85311589.js"
+    "revision": "208a00da1922a4cc7f9e",
+    "url": "/dynamicGame/static/js/runtime~main.c35c62a1.js"
   },
   {
-    "revision": "7854ec2c991556b76209",
-    "url": "/dynamicGame/static/js/2.c661e7bb.chunk.js"
+    "revision": "396acd08fad8a72f2736",
+    "url": "/dynamicGame/static/js/2.01f85cad.chunk.js"
   },
   {
-    "revision": "afdd4199c34d6e045b13",
-    "url": "/dynamicGame/static/js/3.aeb77512.chunk.js"
+    "revision": "efd6e3b2c48c75c41718",
+    "url": "/dynamicGame/static/js/3.44a4f244.chunk.js"
   },
   {
     "revision": "b1a5c384f3f30e3c2cea9bfa47c8ce4b",
@@ -94,10 +94,6 @@ self.__precacheManifest = [
   {
     "revision": "cd06a02365c4391790a3399302739758",
     "url": "/dynamicGame/static/media/bike.cd06a023.png"
-  },
-  {
-    "revision": "e5076bdd2a2010a2d7c0802fd9688644",
-    "url": "/dynamicGame/static/media/spaceship.e5076bdd.png"
   },
   {
     "revision": "8d72f3b473dc3580bed7dcbc708bc8ff",
@@ -520,34 +516,6 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/drop.6cc57d08.wav"
   },
   {
-    "revision": "c52550f12d3e398acfede775d4201c76",
-    "url": "/dynamicGame/static/media/stone-01.c52550f1.png"
-  },
-  {
-    "revision": "a450ec4a79e5dbecc63860bbbe86ffb0",
-    "url": "/dynamicGame/static/media/teeth2.a450ec4a.png"
-  },
-  {
-    "revision": "c48e317092e7e9370cc83db1ccc3ec2b",
-    "url": "/dynamicGame/static/media/teeth-patterns-bubbles.c48e3170.png"
-  },
-  {
-    "revision": "b7b9348838840dcd0ff105cdfd57a2d1",
-    "url": "/dynamicGame/static/media/teeth-patterns-gold.b7b93488.png"
-  },
-  {
-    "revision": "825b084c76a1661fa20526d38ca997c6",
-    "url": "/dynamicGame/static/media/teeth-patterns-toothpaste.825b084c.png"
-  },
-  {
-    "revision": "9705b02ccd2b6733e7bd3b677b59b5da",
-    "url": "/dynamicGame/static/media/miner.9705b02c.png"
-  },
-  {
-    "revision": "2f5893928dcaa1ae86880bf590381b70",
-    "url": "/dynamicGame/static/media/grandma.2f589392.gif"
-  },
-  {
     "revision": "7b8ec038e3a3bbf6f574b9c46f7c1378",
     "url": "/dynamicGame/static/media/plane.7b8ec038.png"
   },
@@ -604,6 +572,34 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/right.a989d2c6.png"
   },
   {
+    "revision": "c52550f12d3e398acfede775d4201c76",
+    "url": "/dynamicGame/static/media/stone-01.c52550f1.png"
+  },
+  {
+    "revision": "a450ec4a79e5dbecc63860bbbe86ffb0",
+    "url": "/dynamicGame/static/media/teeth2.a450ec4a.png"
+  },
+  {
+    "revision": "c48e317092e7e9370cc83db1ccc3ec2b",
+    "url": "/dynamicGame/static/media/teeth-patterns-bubbles.c48e3170.png"
+  },
+  {
+    "revision": "b7b9348838840dcd0ff105cdfd57a2d1",
+    "url": "/dynamicGame/static/media/teeth-patterns-gold.b7b93488.png"
+  },
+  {
+    "revision": "825b084c76a1661fa20526d38ca997c6",
+    "url": "/dynamicGame/static/media/teeth-patterns-toothpaste.825b084c.png"
+  },
+  {
+    "revision": "9705b02ccd2b6733e7bd3b677b59b5da",
+    "url": "/dynamicGame/static/media/miner.9705b02c.png"
+  },
+  {
+    "revision": "2f5893928dcaa1ae86880bf590381b70",
+    "url": "/dynamicGame/static/media/grandma.2f589392.gif"
+  },
+  {
     "revision": "cc62f394d90ea0ef38e5f3da370aefc8",
     "url": "/dynamicGame/static/media/cross.cc62f394.png"
   },
@@ -614,6 +610,30 @@ self.__precacheManifest = [
   {
     "revision": "65909baa9264b06b8c40219e39ba9240",
     "url": "/dynamicGame/static/media/guy.65909baa.png"
+  },
+  {
+    "revision": "9ced8e730c61b740c203d1d1a77a7f9a",
+    "url": "/dynamicGame/static/media/octagon.9ced8e73.png"
+  },
+  {
+    "revision": "b7d61add9b48be06a4c40daa8c6122df",
+    "url": "/dynamicGame/static/media/parallelogram.b7d61add.png"
+  },
+  {
+    "revision": "f1d08e76c996033990b1d58444581377",
+    "url": "/dynamicGame/static/media/rhombus.f1d08e76.png"
+  },
+  {
+    "revision": "43b9afb50842bc3a302e57216be9f446",
+    "url": "/dynamicGame/static/media/trapezoid.43b9afb5.png"
+  },
+  {
+    "revision": "b8ee8bc09996dcbdef23f30448da34ce",
+    "url": "/dynamicGame/static/media/triangle.b8ee8bc0.png"
+  },
+  {
+    "revision": "cc59772c603bafff129f0a27a0860f6f",
+    "url": "/dynamicGame/static/media/pentagon.cc59772c.png"
   },
   {
     "revision": "20679c7aa951414f2872b2e67ced9859",
@@ -650,6 +670,14 @@ self.__precacheManifest = [
   {
     "revision": "12f7930aee6f8ce89ddad9e25f765747",
     "url": "/dynamicGame/static/media/reset-01.12f7930a.png"
+  },
+  {
+    "revision": "cffdbc121a49024da62997e0c562d830",
+    "url": "/dynamicGame/static/media/basket.cffdbc12.png"
+  },
+  {
+    "revision": "2e8a3d4d2880a5a93c3c5594e00fbc95",
+    "url": "/dynamicGame/static/media/tile.2e8a3d4d.png"
   },
   {
     "revision": "efc0e3314bf0a9623a140aa5e147db9f",
@@ -816,6 +844,10 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/wrongAnswer.48b32efb.mp3"
   },
   {
+    "revision": "6cb1935bff69ef688736453c71c2df13",
+    "url": "/dynamicGame/static/media/board.6cb1935b.png"
+  },
+  {
     "revision": "2e8a3d4d2880a5a93c3c5594e00fbc95",
     "url": "/dynamicGame/static/media/stone.2e8a3d4d.png"
   },
@@ -824,19 +856,19 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/bgGame-01.cf96b98d.svg"
   },
   {
-    "revision": "00f04165454c259e2fdc618fa5c353ac",
-    "url": "/dynamicGame/static/media/sky1.00f04165.jfif"
-  },
-  {
     "revision": "fb754bb979f4ee851799ab666c4b0ef6",
     "url": "/dynamicGame/static/media/city.fb754bb9.png"
+  },
+  {
+    "revision": "00f04165454c259e2fdc618fa5c353ac",
+    "url": "/dynamicGame/static/media/sky1.00f04165.jfif"
   },
   {
     "revision": "edff1c3241efb91f973b064bd7f36ee9",
     "url": "/dynamicGame/static/media/road.edff1c32.jpg"
   },
   {
-    "revision": "f457936610f7073f568aadab3529e1f6",
+    "revision": "3943d6ff2e53b88afec1db4cb0bcb411",
     "url": "/dynamicGame/index.html"
   }
 ];
