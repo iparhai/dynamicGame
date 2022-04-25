@@ -1,5 +1,5 @@
 {
-  "main.css": "/dynamicGame/static/css/main.216f2f3e.chunk.css",
+  "main.css": "/dynamicGame/static/css/main.e868602c.chunk.css",
   "main.js": "/dynamicGame/static/js/main.b685505a.chunk.js",
   "main.js.map": "/dynamicGame/static/js/main.b685505a.chunk.js.map",
   "runtime~main.js": "/dynamicGame/static/js/runtime~main.c35c62a1.js",
@@ -9,9 +9,9 @@
   "static/js/3.44a4f244.chunk.js": "/dynamicGame/static/js/3.44a4f244.chunk.js",
   "static/js/3.44a4f244.chunk.js.map": "/dynamicGame/static/js/3.44a4f244.chunk.js.map",
   "index.html": "/dynamicGame/index.html",
-  "precache-manifest.7182f559110d3073bc032e6675d7f58c.js": "/dynamicGame/precache-manifest.7182f559110d3073bc032e6675d7f58c.js",
+  "precache-manifest.9407e03fcd0b08840faaf95178651420.js": "/dynamicGame/precache-manifest.9407e03fcd0b08840faaf95178651420.js",
   "service-worker.js": "/dynamicGame/service-worker.js",
-  "static/css/main.216f2f3e.chunk.css.map": "/dynamicGame/static/css/main.216f2f3e.chunk.css.map",
+  "static/css/main.e868602c.chunk.css.map": "/dynamicGame/static/css/main.e868602c.chunk.css.map",
   "static/media/1.png": "/dynamicGame/static/media/1.411c4e6a.png",
   "static/media/1.mp3": "/dynamicGame/static/media/1.a0d6b138.mp3",
   "static/media/1.gif": "/dynamicGame/static/media/1.efc0e331.gif",

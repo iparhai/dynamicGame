@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "dd361fb3e72f63a7d5c9",
-    "url": "/dynamicGame/static/css/main.216f2f3e.chunk.css"
+    "revision": "a0860a328e7251c4dc4d",
+    "url": "/dynamicGame/static/css/main.e868602c.chunk.css"
   },
   {
-    "revision": "dd361fb3e72f63a7d5c9",
+    "revision": "a0860a328e7251c4dc4d",
     "url": "/dynamicGame/static/js/main.b685505a.chunk.js"
   },
   {
@@ -868,7 +868,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/road.edff1c32.jpg"
   },
   {
-    "revision": "92e78bdad16952a2d5e3b15666f012d0",
+    "revision": "6931c2c5b09c9637732fa8cfdbd28921",
     "url": "/dynamicGame/index.html"
   }
 ];
