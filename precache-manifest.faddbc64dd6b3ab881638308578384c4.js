@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "4666a7694c7330a16b22",
-    "url": "/dynamicGame/static/css/main.fe5cada8.chunk.css"
+    "revision": "9487f0c52bbd6a32b1e6",
+    "url": "/dynamicGame/static/css/main.744ec490.chunk.css"
   },
   {
-    "revision": "4666a7694c7330a16b22",
-    "url": "/dynamicGame/static/js/main.ecabd3e1.chunk.js"
+    "revision": "9487f0c52bbd6a32b1e6",
+    "url": "/dynamicGame/static/js/main.9b4537ed.chunk.js"
   },
   {
-    "revision": "208a00da1922a4cc7f9e",
-    "url": "/dynamicGame/static/js/runtime~main.c35c62a1.js"
+    "revision": "6e212c9244beeabafeb9",
+    "url": "/dynamicGame/static/js/runtime~main.a8792c1d.js"
   },
   {
-    "revision": "396acd08fad8a72f2736",
-    "url": "/dynamicGame/static/js/2.01f85cad.chunk.js"
+    "revision": "73ebe34acccb53f4083f",
+    "url": "/dynamicGame/static/js/2.764301f0.chunk.js"
   },
   {
-    "revision": "efd6e3b2c48c75c41718",
-    "url": "/dynamicGame/static/js/3.44a4f244.chunk.js"
+    "revision": "afcd7e178a1f263d459b",
+    "url": "/dynamicGame/static/js/3.7e4836f0.chunk.js"
   },
   {
     "revision": "b1a5c384f3f30e3c2cea9bfa47c8ce4b",
@@ -460,6 +460,10 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/93.05c31e9f.png"
   },
   {
+    "revision": "faade64c4685ad9f441119544a3aa2c2",
+    "url": "/dynamicGame/static/media/road.faade64c.webp"
+  },
+  {
     "revision": "eede19c0d5f0fccbd13a8117167352e7",
     "url": "/dynamicGame/static/media/base.eede19c0.svg"
   },
@@ -864,7 +868,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/city.fb754bb9.png"
   },
   {
-    "revision": "396de807d3970ddc5ea70a7b3b8b7d05",
+    "revision": "4a52347bf5d6cf2fedaa621cb7ea0cfe",
     "url": "/dynamicGame/index.html"
   }
 ];
