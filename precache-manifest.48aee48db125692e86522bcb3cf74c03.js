@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "9487f0c52bbd6a32b1e6",
-    "url": "/dynamicGame/static/css/main.744ec490.chunk.css"
+    "revision": "228068034e89bc40f78d",
+    "url": "/dynamicGame/static/css/main.96fc80a2.chunk.css"
   },
   {
-    "revision": "9487f0c52bbd6a32b1e6",
-    "url": "/dynamicGame/static/js/main.9b4537ed.chunk.js"
+    "revision": "228068034e89bc40f78d",
+    "url": "/dynamicGame/static/js/main.8c41fc42.chunk.js"
   },
   {
     "revision": "6e212c9244beeabafeb9",
     "url": "/dynamicGame/static/js/runtime~main.a8792c1d.js"
   },
   {
-    "revision": "73ebe34acccb53f4083f",
-    "url": "/dynamicGame/static/js/2.764301f0.chunk.js"
+    "revision": "7856b60ce41cbf8d1034",
+    "url": "/dynamicGame/static/js/2.6bb0c95f.chunk.js"
   },
   {
     "revision": "afcd7e178a1f263d459b",
@@ -868,7 +868,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/city.fb754bb9.png"
   },
   {
-    "revision": "4a52347bf5d6cf2fedaa621cb7ea0cfe",
+    "revision": "80c28f3052f9988f7079659958969079",
     "url": "/dynamicGame/index.html"
   }
 ];
