@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "228068034e89bc40f78d",
-    "url": "/dynamicGame/static/css/main.96fc80a2.chunk.css"
+    "revision": "70b73a0494611c91e518",
+    "url": "/dynamicGame/static/css/main.6ee9e830.chunk.css"
   },
   {
-    "revision": "228068034e89bc40f78d",
-    "url": "/dynamicGame/static/js/main.8c41fc42.chunk.js"
+    "revision": "70b73a0494611c91e518",
+    "url": "/dynamicGame/static/js/main.7b3ce366.chunk.js"
   },
   {
-    "revision": "6e212c9244beeabafeb9",
-    "url": "/dynamicGame/static/js/runtime~main.a8792c1d.js"
+    "revision": "a4a6f2b30d158f29fe5f",
+    "url": "/dynamicGame/static/js/runtime~main.e07e36fa.js"
   },
   {
-    "revision": "7856b60ce41cbf8d1034",
-    "url": "/dynamicGame/static/js/2.6bb0c95f.chunk.js"
+    "revision": "75da6637947f658b6049",
+    "url": "/dynamicGame/static/js/2.dab5ce79.chunk.js"
   },
   {
-    "revision": "afcd7e178a1f263d459b",
-    "url": "/dynamicGame/static/js/3.7e4836f0.chunk.js"
+    "revision": "846cbddbbcae32d271c8",
+    "url": "/dynamicGame/static/js/3.4ab2f6a3.chunk.js"
   },
   {
     "revision": "b1a5c384f3f30e3c2cea9bfa47c8ce4b",
@@ -70,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "f290cad28cfad98e50f965d67547ed9f",
     "url": "/dynamicGame/static/media/car.f290cad2.png"
+  },
+  {
+    "revision": "b6ff5031edab7cb6d52ec7b8fd44abb6",
+    "url": "/dynamicGame/static/media/ball.b6ff5031.png"
   },
   {
     "revision": "cabbe64aebaa36b27d8d08835223139b",
@@ -868,7 +872,11 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/city.fb754bb9.png"
   },
   {
-    "revision": "80c28f3052f9988f7079659958969079",
+    "revision": "3fc2d119364acd8ebef21b441e096b5c",
+    "url": "/dynamicGame/static/media/slash.3fc2d119.png"
+  },
+  {
+    "revision": "3d437ca598b4ba0b649bb3edc09f9805",
     "url": "/dynamicGame/index.html"
   }
 ];
