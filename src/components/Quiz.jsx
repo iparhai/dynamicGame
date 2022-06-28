@@ -114,7 +114,7 @@ import Divide from './maths grade 5/Divide/Divide';
 import BODMASS from './maths grade 5/BODMASS/BODMASS';
 import ANU6D5 from './maths grade 5/addNumbersUpto6Digits/ANU6D';
 import SNU6D5 from './maths grade 5/subNumbeersUpto6Digits/SNU6D';
-import Compare from './maths grade 5/Compare Order/Compare';
+import CompareG5 from './maths grade 5/Compare Order/Compare';
 import Ratio from './maths grade 5/Ratios/Ratio';
 import Geometry from './maths grade 5/Geometry/Geometry';
 import AnglesG5 from './maths grade 5/AnglesG5/AnglesG5';
@@ -502,7 +502,7 @@ class Quiz extends React.Component {
       return  <SNU6D5 onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
     }
     else if(gameName.toLocaleLowerCase() == 'con'){
-      return <Compare onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+      return <CompareG5 onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
     }
     else if(gameName.toLocaleLowerCase() == 'ratio'){
       return <Ratio onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
