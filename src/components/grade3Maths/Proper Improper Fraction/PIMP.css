@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito:ital,wght@1,900&display=swap');
+
+.PIMPQuestion{
+    width : 50vw;
+    height: 18vh;
+    line-height: 18vh;
+    margin: 12vh auto 0;
+    /* border : 1px solid red; */
+    border-radius: 15px;
+    background-color: rgba(0, 139, 139, 0.308);
+}
+.PIMPBoard{
+    /* border : 1px solid red; */
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vh auto 0;
+    position: relative;
+    font-family: 'Carter One', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+.fractionBoard{
+    /* border : 5px dotted white; */
+    width: 45%;
+    border-radius: 15px;
+    /* background-color: rgba(184, 135, 11, 0.555); */
+    position: relative;
+}
+.header{
+    /* border : 1px solid red; */
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    background-image: url(./images/board.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color:  rgba(184, 135, 11, 0.39); */
+    /* letter-spacing: 2px; */
+    /* font-size: 100%; */
+    text-transform: uppercase;
+}
+.dropTarget{
+    border : 3px dashed white;
+    width: 100%;
+    height: 25vh;
+    /* background-color:  rgba(184, 135, 11, 0.555); */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+}
+.PIMPTiles{
+    /* border : 1px solid green; */
+    width : 50vw;
+    height: 10vh;
+    margin: 3vh auto 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.PIMPItems{
+    /* border: 1px solid red; */
+    width: 10%;
+    height: 10vh;
+    line-height: 5vh;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.575);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    cursor: move; 
+
+}
+.PIMPItems hr{
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+}
+.PIMPcheck{
+    background-color:rgb(82, 131, 9);
+    border-radius: 15px;
+    width: 4%;
+    height: 8vh;
+    line-height: 8vh;
+    position: absolute;
+    right: 20%;
+}
+.PIMPcheck:hover{
+    width: 5%;
+    height: 9vh;
+    line-height: 9vh;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}

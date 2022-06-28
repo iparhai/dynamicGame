@@ -1,0 +1,29 @@
+/* Container holding the image and the text */
+.tap_container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 50vh;
+    margin-right: 8px;
+    font-size: 5vw;
+}
+
+.tap_container :active {
+    transform: translateY(4px);
+}
+
+.tap_box {
+    max-width: 11vw;
+    width: 100%;
+}
+
+
+/* Centered text */
+.tap_centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  

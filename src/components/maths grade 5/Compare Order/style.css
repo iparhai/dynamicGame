@@ -1,0 +1,57 @@
+.CON__question{
+    /* border : 1px solid red; */
+    margin-top : 10%;
+    margin-bottom : 5%;
+    border-radius: 15px;
+    width : 40vw;
+    padding : 35px;
+    background-color: rgba(235, 116, 116, 0.294);
+    background-image: url(./images/pattern.png);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+}
+.CON__main{
+    /* border : 1px solid red; */
+    width : 60vw;
+    /* height : 50vh; */
+    /* margin-top: 25%; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.CON__options{
+    border : 3px dashed white;
+    width : 60vw;
+    /* height : 50vh; */
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.CON__dragonHead{
+    /* border : 1px solid green; */
+    width : 20%;
+    /* position: absolute;
+    top : 0 */
+}
+.CON__dragonSegments{
+    /* border : 1px solid green; */
+    /* margin-left: -10px; */
+    width : 10%;
+    padding : 0px;
+    position: relative;
+    /* position: absolute;
+    top : 5 */
+}
+.CON__dragonSegments h1{
+    font-size: 100%;
+    position: absolute;
+    top : 20%;
+    left : 40%; 
+    transform: translate(-40%, 21%);
+}
+#tail{
+    margin-top: -14%;
+    margin-left: -4%;
+    /* margin-right: 10%; */
+}

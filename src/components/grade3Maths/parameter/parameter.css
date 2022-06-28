@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito:ital,wght@1,900&display=swap');
+
+.Parameterboard{
+    width : 50vw;
+    height : 80vh;
+    margin : 10vh auto;
+    background-image: url('./images/bgGame-01.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Carter One', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+.miner{
+    /* background-image: url('./images/road.png'); */
+    width: 7%;
+    /* height: 7%; */
+    position: absolute;
+    /* top: 25%; */
+    z-index: 1000;
+    transition-duration: 1.5s;
+}
+
+.TR{
+    /* border: 1px solid red; */
+    background-color: #c8d434;
+    /* background-image: url('./images/path-02.svg');
+    background-size: contain;
+    background-repeat: repeat; */
+    height : 5%;
+    position: absolute;
+    /* top: 25%;
+    left: 45%; */
+    transition-duration: 1.5s;
+    z-index: 1;
+}
+.RD{
+    /* border: 1px solid red; */
+    background-color: #47f0f0;
+    /* background-image: url('./images/path-02.svg');
+    background-size: contain;
+    background-repeat: repeat   ; */
+    width : 4%;
+    position: absolute;
+    /* transform: rotate(90deg); */
+    /* top: 25%;
+    left: 89%; */
+    transition-duration: 1.5s;
+    z-index: 2;
+}
+.LD{
+    /* border: 1px solid red; */
+    background-color: #f8ac30;
+    /* background-image: url('./images/path-02.svg');
+    background-size: contain;
+    background-repeat: repeat   ; */
+    width : 4%;
+    position: absolute;
+    /* top: 25%;
+    left: 45%; */
+    transition-duration: 1.5s;
+    /* transform: rotate(90deg); */
+    /* z-index: 4; */
+}
+.BR{
+    /* border: 1px solid red; */
+    background-color: #c8d434;
+    /* background-image: url('./images/path-02.svg');
+    background-size: contain;
+    background-repeat: repeat   ; */
+    height : 5%;
+    position: absolute;
+    /* top: 85%;
+    left: 45%; */
+    transition-duration: 1.5s;
+    z-index: 3;
+}
+.goRight, .goDown{
+    /* border: 1px solid red; */
+    /* background-color: brown; */
+    /* border-radius: 100%; */
+    color: chocolate;
+    font-weight: 900;
+    font-size: 100%;
+    width: 5%;
+    position: absolute;
+}
+.goRight{
+    top: 15%;
+    left: 44%
+}
+
+.goDown{
+    top: 25%;
+    left: 37%
+}
+
+.goRight:hover, .goDown:hover{
+    color: chocolate;
+}
+.value{
+    font-size: xx-large;
+    color: #874431;
+}
+.assessment{
+    border : 3px solid #fffeef;
+    width : 30vw;
+    height: 10vh;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #426dd6;
+    top: 2%;
+    left: 2%;
+    /* line-height: 10vh; */
+    /* font-size: 100%; */
+    /* line-height: 15%; */
+}
+.assessment h6{
+    /* font-size: 100%; */
+}
+.avatar{
+    /* border : 1px solid red; */
+    width : 30%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left : 55%;
+    /* transition-duration: 2s; */
+}
+.avatar img{
+    width: 100%
+}
+.answerScreen{
+    /* border : 10px dotted #fffeef; */
+    width : 30%;
+    /* height : 30%; */
+    position: absolute;
+    top : 35%;
+    left : 5%;
+    display: flex;
+    background-color: #ef3363;
+    border-radius: 5px;
+    flex-direction: column;
+    flex-shrink: 3;
+}
+.answerScreen div{
+    width : 40%;
+    height: 20%;
+    border-radius: 10px;
+    /* background-color: #21c6f8; */
+    margin : 1% auto;
+    animation-name            : fade      , shrink    ;
+    animation-duration        : 0.5s      , 0.53s     ;
+    animation-iteration-count : infinite  , infinite  ;
+    animation-direction       : alternate , alternate ;
+}
+@keyframes fade {
+    from { opacity   : 1; }
+    to   { opacity   : 0.75; }
+}
+@keyframes shrink {
+    from { transform : scale(1); }
+    to   { transform : scale(0.75); }
+}

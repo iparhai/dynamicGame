@@ -1,0 +1,131 @@
+.hcfMainDiv .hcfQuestion{
+    background-color: rgba(0, 255, 255, 0.315);
+    width: 50vw;
+    height: 15vh;
+    line-height: 15vh;
+    border-radius: 15px;
+    margin: 10vh auto 3vh;
+}
+.hcfMainDiv .hcfQuestion span{
+    color: red;
+    font-weight: 800;
+    font-size: 32px;
+}
+.hcfMainDiv .hcfGame{
+    /* border : 1px solid red; */
+    width : 50vw;
+    height: 60vh;
+    position: relative;
+}
+.hcfGame .tilesDiv{
+    border: 3px solid #fffeef;
+    width : 80%;
+    height : 10vh;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    background-color: #2e51aa;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10vh;
+}
+.hcfGame .tilesDiv div{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 10vh;
+    border-radius: 15px;
+    margin: 0px 5px 0px 5px;
+}
+.hcfGame .tilesDiv h4{
+    color: #fffeef;
+}
+.hcfGame .numberprimefactors{
+    /* border: 1px solid red; */
+    width : 80%;
+    margin : 0 auto;
+    height: 20vh;
+}
+.numberprimefactors .primefactorsdrop1{
+    border: 5px solid #fffeef;
+    width: 50%;
+    height: 10vh;
+    margin: 1vh auto 0vh;
+    border-radius: 15px;
+    background-color: #2e51aa;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.primefactorsdrop1 div{
+    border: 2px solid #426dd6;
+    width: 15%;
+    border-radius: 15px;
+    margin: 1%;
+    background-color: #2e51aa;
+}
+.primefactorsdrop1 div:hover{
+    background-color: rgba(235, 39, 39, 0.5);
+    transform: rotate(15deg);
+    cursor: no-drop
+}
+.SpriteHolder{
+    /* border : 2px solid #fffeef; */
+    width: 100%;
+    height: 27vh;
+    margin-top: 1vh;
+    background-image: url(./assets/road.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* .SpriteHolder div{
+    border: 2px solid red;
+} */
+.primefactorsdrop1 .userAnswerHCF{
+    background-color: none;
+
+}
+.checkBtn{
+    position: absolute;
+    right :10%;
+    top : 10%
+}
+.ShowFactors{
+    width: 30%;
+    height: 15vh;
+    position: absolute;
+    top: 1%;
+    left: -5%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ShowFactors div{
+    width: 50%;
+    height: 15vh;
+    /* border: 1px solid #fffeef; */
+    border-radius: 5px;
+    margin: 1%;
+    background-color: #2e51aa;
+    padding: 1%;
+}
+.ShowFactors div .head{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 50%;
+    width: 100%;
+    /* height: 30%; */
+    border-bottom: 1px solid #fffeef;
+}
+.ShowFactors div .subhead{
+    transform: rotate(-15deg);
+}
+.ShowFactors div div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 11% auto;
+    height: 50%;
+}

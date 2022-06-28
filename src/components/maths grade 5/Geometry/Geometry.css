@@ -1,0 +1,61 @@
+.Geometry__main{
+    border: 1px solid white;
+    width : 100vw;
+    min-height: 100vh;
+}
+.Geometry__question{
+    width : 60%;
+    height : 10vh;
+    line-height: 10vh;
+    margin: 5% auto;
+    margin-bottom: 1%;
+    background-image: url(../images/cloud.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color : black;
+}
+.Geometry__gameScreen{
+    /* border : 1px solid green; */
+    margin: 0 auto;
+    margin-bottom: 2%;
+    width: 40vw;
+    min-height: 40vh;
+    /* line-height: 40vh; */
+    background-image: url(../images/screenboard_orange_long-e91ecbcb5ddaafd2c81b75668060c86792515686b8825466fcbc57559d24ac85.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+.Geometry__gameScreen img{
+    width : 25%;
+    /* padding-top: 5%; */
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.Geometry__Options{
+    /* border : 1px solid red; */
+    bottom: 5px;
+    width : 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin : 0 auto
+}
+.opt1{
+    width : 25%;
+    /* margin: 3px; */
+    position: relative;
+}
+.opt1 h6{
+    position: absolute;
+    top: 50%;
+    left : 50%; 
+    transform: translate(-50%,-50%);
+    font-size: 50%;
+    color: black;
+    font-weight: 900;
+    /* border : 1px solid red;
+    width: 100%;
+    text-align: center; */
+}

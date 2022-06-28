@@ -1,0 +1,62 @@
+.DivisibililtyQuestion{
+    /* border : 1px solid red; */
+    width : 50vw;
+    height: 15vh;
+    line-height: 15vh;
+    margin: 15vh auto;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 255, 0.288);
+}
+.DivisibilityGameScreen{
+    /* border : 1px solid red; */
+    width : 50vw;
+    height : 50vh;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.ItemDivisibility{
+    /* border: 1px solid red; */
+    width : 15%;
+    background-color: rgba(72, 255, 0, 0.246);
+    height: 5vh;
+    line-height: 5vh;
+    border-radius: 15px;
+    margin: 1%;
+}
+.ItemDivisibility h6{
+    font-size: 70%;
+}
+.DisplayDivisibility{
+    width : 40%;
+    height : 30vh;
+    border : 3px dashed white;
+    position: absolute;
+    top : 25%; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.DisplayDivisibility .ItemDivisibility{
+    background-color: red;
+}
+.checkDivisiility{
+    /* border: 1px solid red; */
+    width : 8%;
+    height: 8vh;
+    line-height: 8vh;
+    border-radius: 15px;
+    background-color: green;
+    position : absolute;
+    top : 40%;
+    right : 0%;
+    font-size: 100%;
+}
+.checkDivisiility:hover{
+    width : 9%;
+    height: 9vh;
+    line-height: 9vh;
+}

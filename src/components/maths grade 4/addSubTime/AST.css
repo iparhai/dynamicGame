@@ -1,0 +1,37 @@
+.ast_options {
+    display: flex;
+    position: absolute;
+    width: 90vw;
+    height: 35px;
+    justify-content: space-around;
+    /* z-index: 5; */
+    top: 80%;
+    left: 8%;                 
+
+}
+
+.ast_container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ast_container :active {
+    transform: translateY(4px);
+}
+
+.ast_box {
+    max-width: 25vw;
+    width: 100%;
+}
+
+
+/* Centered text */
+.ast_centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito:ital,wght@1,900&display=swap');
+
+.subCartoon{
+    /* border : 1px solid red; */
+    width : 50vw;
+    height : 80vh;
+    margin : 10vh auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Carter One', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+.Hint1{
+    /* border : 1px solid red; */
+    width : 20%;
+    display: flex;
+    position: absolute;
+    top:25%;
+    right:8%
+}
+.Hint1 div{
+    width : 100%;
+    color: black;
+    font-size: 80%;
+}
+.Hint2{
+    /* border : 1px solid red; */
+    width : 20%;
+    display: flex;
+    position: absolute;
+    top:30%;
+    right:8%
+}
+.Hint2 div{
+    width : 100%;
+    color: black;
+    font-size: 80%;
+}
+.Hint3{
+    /* border : 1px solid red; */
+    width : 20%;
+    display: flex;
+    position: absolute;
+    top:35%;
+    right:8%
+}
+.Hint3 div{
+    width : 100%;
+    color: black;
+    font-size: 80%;
+}
+.Hint4{
+    /* border : 1px solid red; */
+    width : 20%;
+    display: flex;
+    position: absolute;
+    top:40%;
+    right:8%
+}
+.Hint4 div{
+    width : 100%;
+    color: black;
+    font-size: 80%;
+}
+.showQuestion{
+    /* border : 2px solid red; */
+    background-color: rgba(95,168,150,0.5);
+    border-radius: 10px;
+    width : 50%;
+    padding : 1%;
+    position: absolute;
+    top: 2%;
+    left : 2%
+}
+.question1{
+    /* border:1px solid red; */
+    width: 8%;
+    position : absolute;
+    top: 36%;
+    left: 6%
+}
+.question1 h5{
+    font-size: 100%;
+    margin: 0px;
+    font-weight:900;
+    color: black
+}
+.question1 .underline{
+    border-bottom: 2px solid black;
+}
+.question2{
+    /* border:1px solid red; */
+    width: 8%;
+    position : absolute;
+    bottom: 12%;
+    left: 6%
+}
+.question2 h5{
+    font-size: 100%;
+    margin: 0px;
+    font-weight:900;
+    color: black
+}
+.question2 .underline{
+    border-bottom: 2px solid black;
+}
+.upperJaw{
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.5);
+    width : 44%;
+    height : 12%;
+    position: absolute;
+    top : 42%;
+    left : 18%;
+    display: flex;
+    color: rgb(106, 90, 205);
+
+}
+.lowerJaw{
+    border : 2px solid white;
+    background-color: rgba(255,255,255,0.5);
+    width : 44%;
+    height: 12%;
+    position: absolute;
+    bottom : 20%;
+    left : 18%;
+    display: flex;
+    color: rgb(106, 90, 205);
+}
+[contentEditable=false]:empty:not(:focus):before{
+    content:attr(data-text)
+}
+.UpperjawValue{
+    border: 4px solid white;
+    width : 8%;
+    height : 8%;
+    border-radius: 50%;
+    background-color: rgb(11, 150, 155);
+    color: black;
+    transform: rotate(-15deg);
+    /* font-size: 100%; */
+    position: absolute;
+    top: 43%;
+    right: 28%;
+}
+.UpperjawValue h6{
+    margin : 0px;
+    font-size: 100%;
+}
+.LowerjawValue{
+    border: 4px solid white;
+    width : 8%;
+    height : 8%;
+    border-radius: 50%;
+    background-color: rgb(11, 150, 155);
+    color: black;
+    transform: rotate(-15deg);
+    /* font-size: 100%; */
+    position: absolute;
+    bottom: 22%;
+    right: 28%;
+}
+.LowerjawValue h6{
+    margin : 0px;
+    font-size: 100%;
+}
+.upperJaw .teeths1{
+    border : 1px solid red;
+    width: 10%;
+    border-radius: 0px 0px 10px 10px
+}
+    
+.lowerJaw .teeths2{
+    border : 1px solid red;
+    width : 10%;
+    border-radius: 10px 10px 0px 0px
+}
+.color-of-teeth{
+    /* border : 1px solid red; */
+    width : 22%;
+    height : 10%;
+    position: absolute;
+    bottom: 10%;
+    right: 7%;
+    display: flex;;
+    justify-content: space-around;
+}
+.Dentures{
+    /* border : 1px solid red; */
+    width : 22%;
+    height : 10%;
+    position : absolute;
+    top : 55%;
+    right : 7%;
+    display: flex;
+    justify-content: center;
+}
+.Dentures img:hover{
+    cursor: grab;
+}
+
+.checkAnswer{
+    /* border: 1px solid red; */
+    width : 10%;
+    height: 10%;
+    margin : 0px;
+    color: green;
+    font-size: 150%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.Dentures img:hover{
+    transform: scale(0.9);
+}
+.plus-operator{
+    position: absolute;
+    top : 26.5%;
+    left : 21%;
+    /* border : 1px solid red; */
+    width: 5%;
+}
+.plus-operator i{
+    font-size: 100%;
+}
+.minus-operator{
+    position: absolute;
+    top : 26.5%;
+    left : 53.2%;
+    /* border : 1px solid red; */
+    width: 5%;
+}
+.minus-operator i{
+    font-size: 100%;
+}

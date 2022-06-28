@@ -1,0 +1,98 @@
+.Tyf_Question{
+    width: 60%;
+    height : auto;
+    margin : 9% auto 7%;
+    text-align : center;
+    background-color : rgba(36,208,226,0.2);
+    border-radius :15px;
+    padding : 5%
+}
+.Tyf_SolveProblem{
+    /* border: 2px solid greenyellow; */
+    width: 60vw;
+    height: 45vh;
+    display: flex;
+}
+.Tyf_SolveProblem .solver{
+    /* border : 1px solid red; */
+    width : 60%;
+    position: relative;
+}
+.Tyf_SolveProblem .solver div{
+    border-radius : 0px;
+    border: 4px dotted white;
+}
+.Tyf_SolveProblem .solver .board1{
+    /* border : 1px solid red; */
+    /* background-color: greenyellow; */
+    height: 30%;
+    width : 30%;
+    position: absolute;
+    top: 30%;
+    left : 8%;
+    display: flex;
+    justify-content: center;
+}
+.Tyf_SolveProblem .solver .board2{
+    /* border : 1px solid red; */
+    /* background-color: hotpink; */
+    height: 30%;
+    width : 30%;
+    position: absolute;
+    top: 11%;
+    left : 45%;
+    display: flex;
+    justify-content: center;
+}
+.Tyf_SolveProblem .solver .board3{
+    /* border : 1px solid red; */
+    /* background-color: indianred; */
+    height: 30%;
+    width : 30%;
+    position: absolute;
+    bottom: 11%;
+    left : 45%;
+    display: flex;
+    justify-content: center;
+}
+.Tyf_SolveProblem .solver div h1{
+    /* border : 1px solid red; */
+    /* background-color: indianred; */
+    padding-top: 20%;
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+}
+.Tyf_SolveProblem .solver hr{
+    position: absolute;
+    width: 35%;
+    border : 2px solid white;
+    background-color: white;
+    top : 50%;
+    left : 43%
+}
+.Tyf_SolveProblem .tiles{
+    /* border : 1px solid red; */
+    width : 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Tyf_SolveProblem .tiles h4{
+    /* border : 1px solid rgba(172, 255, 47, 0.308); */
+  padding-top: 15%;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.checkDiv{
+    border : 1px solid red;
+    width: 10vh;
+    height: 10vh;
+    margin: 0 auto;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    line-height: 10vh;
+    background-color: greenyellow;
+    font-weight: 900;
+    font-size: 150%;
+}

@@ -1,0 +1,57 @@
+.Ratio__question{
+    background-color: rgba(99, 124, 197, 0.329);
+    border-radius: 15px;
+    width : 50vw;
+    height : 20vh;
+    line-height: 20vh;
+    margin: 10% auto;
+    margin-bottom: 5%;
+}
+.Ratio__Holder{
+    border : 2px solid white;
+    width : 60vw;
+    /* height : 60vh; */
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.triangle-left {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+}
+
+.Ratio__Options{
+    /* border : 1px solid red; */
+    width : 60vw;
+    margin : 10% auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.Ratio__OptionsOpt{
+    /* border : 2px solid green; */
+    width: 25%;
+    position: relative;
+    cursor: url('./images/hold.png'),auto;
+}
+.Ratio__OptionsOpt img{
+    width : 100%
+}
+.Ratio__OptionsOpt h3{
+    position: absolute;
+    /* border : 1px solid red; */
+    width: 50%;
+    height:10vh;
+    line-height: 10vh;
+    color: red;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(./images/hatch2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,50 @@
+/* *{
+    transition-duration: 0.3s;
+} */
+.div1{
+border: 1px solid rgb(36, 208, 226);
+background-color: rgba(36, 208, 226, 0.2);
+border-radius: 5px;
+width: 10vw;
+margin-right: 1%;
+line-height: 10vh;
+height: 10vh;
+}
+.div2{
+    border: 1px solid rgb(36, 208, 226);
+    background-color: rgba(36, 208, 226, 0.2);
+    border-radius: 5px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    line-height: 10vh;
+    height: 10vh;
+}
+.div2 img{
+    float: left;
+    margin : 0 1%;
+}
+.AnswerDiv{
+    width: 50vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    border-radius: 5px;
+    line-height: 10vh;
+    height: 10vh;
+}
+.btnCheck{
+    width: 5vw;
+    border-radius: 10px;
+    border: none;
+    height: 5vh;
+    background-color: rgba(36, 208, 226, 0.2);
+    border: 1px solid rgb(36, 208, 226);
+    color : white;
+    /* padding : 15px */
+}
+.btnCheck h4{
+    font-size: 100%;
+} 
+

@@ -1,0 +1,37 @@
+.options {
+    display: flex;
+    position: absolute;
+    width: 70vw;
+    height: 35px;
+    justify-content: space-around;
+    /* z-index: 5; */
+    top: 40%;
+    left: 7%;
+}
+
+.div_container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-left: 10vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.div_container :active {
+    transform: translateY(4px);
+}
+
+.div_box {
+    max-width: 11vw;
+    width: 100%;
+}
+
+
+/* Centered text */
+.div_centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,81 @@
+.numberline_gamescreen{
+    /* border: 2px solid green; */
+    width: 60vw;
+    height: 80vh;
+    margin: 15vh auto;
+    position: relative;
+}
+.problem{
+    /* border: 2px solid green; */
+    border-radius: 25px;
+    width: 50%;
+    margin:  0 auto;
+    /* height: 20%; */
+    padding: 4%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 32px;
+    background-color: rgba(136, 171, 236, 0.5);
+}
+.problem h6 span{
+    color: red;
+    font-weight: 900;
+    font-size: 34px;
+}
+.numberline{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    /* margin-top: 5%; */
+    /* background-image: url(./images/line1.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.numberline img{
+    width: 80%;
+}
+.object_holder{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 13%;
+    margin-top: 5%;
+    position: relative;
+    /* transition-duration: 2s; */
+}
+.object_holder img{
+    width: 8%;
+    /* border: 1px solid red; */
+    position: absolute;
+    /* left: 0; */
+    transition-duration: 1.5s;
+}
+.btn_holder{
+    /* border : 1px solid red; */
+    width : 10%;
+    height: 10%;
+    position: absolute;
+    left : 1%;
+    bottom: 25%;
+    /* margin-top: 15%; */
+}
+.left_btn , .right_btn{
+    width: 50%;
+}
+
+.answerButton {
+    font-size: 4vw;
+    height: 5vh;
+    line-height: 1vh;
+    vertical-align: middle;
+    padding: 5vh;
+    position: relative;
+}
+.fourth {
+    border-color: #000;
+    background-color: #f1c40f;
+    color: #fff;
+    background-image: linear-gradient(45deg,#000 50%,transparent 0);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background .3s ease-in-out;
+}

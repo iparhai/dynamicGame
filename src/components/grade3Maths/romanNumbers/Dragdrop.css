@@ -1,0 +1,19 @@
+.pulse{
+    cursor: pointer;
+    animation: pulse 5s infinite;
+}
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: rgb(255, 192, 203)
+    }
+}
+
+.resButton{
+    transition: all 0.1s ease-in-out;
+}
+.resButton:hover {
+    transform: scale(1.3);
+}
