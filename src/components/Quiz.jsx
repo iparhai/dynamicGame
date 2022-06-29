@@ -121,6 +121,10 @@ import AnglesG5 from './maths grade 5/AnglesG5/AnglesG5';
 import Triangle from './maths grade 5/Triangles/Triangle';
 import Complement from './maths grade 5/complementary/Complement';
 import Lcm from './maths grade 5/LCM/Lcm';
+import DTF from './maths grade 5/decimal to fraction/DTF';
+import PTF from './maths grade 5/percentages in to fraction/PTF';
+import RD from './maths grade 5/Rounded Decimals/RD';
+
 
 
 class Quiz extends React.Component {
@@ -527,6 +531,15 @@ class Quiz extends React.Component {
     }
     else if(gameName.toLocaleLowerCase() == 'lcm'){
       return <Lcm onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'dtf'){
+      return <DTF onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'ptf'){
+      return <PTF onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'rd'){
+      return <RD onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
     }
   }
   renderGame = (grade, gameName) => {
