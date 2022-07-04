@@ -124,8 +124,11 @@ import Lcm from './maths grade 5/LCM/Lcm';
 import DTF from './maths grade 5/decimal to fraction/DTF';
 import PTF from './maths grade 5/percentages in to fraction/PTF';
 import RD from './maths grade 5/Rounded Decimals/RD';
-
-
+// new Fraction game
+import AddingFraction from './maths grade 5/Adding fraction(NEW)/AddingFractions';
+import SubtractingFractionNew from './maths grade 5/Subtracting Fraction(NEW)/SubtractingFractions';
+import MultiplyingFractionNew from './maths grade 5/Multiply fraction(NEW)/MultiplyingFractions';
+import DividingFractionNew from './maths grade 5/Divide fraction(NEW)/DividingFractions';
 
 class Quiz extends React.Component {
   _isMounted = false;
@@ -540,6 +543,18 @@ class Quiz extends React.Component {
     }
     else if(gameName.toLocaleLowerCase() == 'rd'){
       return <RD onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'n_add_frac'){
+      return <AddingFraction onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'n_sub_frac'){
+      return <SubtractingFractionNew onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'n_mul_frac'){
+      return <MultiplyingFractionNew onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
+    }
+    else if(gameName.toLocaleLowerCase() == 'n_div_frac'){
+      return <DividingFractionNew onCorrectAnswer={this.correctAnswer} onWrongAnswer={this.wrongAnswer} />
     }
   }
   renderGame = (grade, gameName) => {
