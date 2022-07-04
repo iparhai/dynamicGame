@@ -21,13 +21,13 @@ class Timmer extends React.Component {
         });
         this._secondsIntervalRef = setInterval(() => this.setState(prevState => ({
             seconds: --prevState.seconds
-        })), 200000)
+        })), 2000)
     }
     componentDidUpdate() {
         if (this.props.level !== this.state.level) {
             this.setState(prevState => ({
                 level: this.props.level,
-                //seconds: prevState.seconds + 20,
+                // seconds: prevState.seconds + 20,
                 seconds: 20
 
             }));

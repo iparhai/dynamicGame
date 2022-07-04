@@ -31,8 +31,8 @@ const generate = () => {
     return problem
 }
 const getRandomOption = (dif) => {
-    const max = dif == 'b' ? 300 : dif == 'i' ? 700 : 999
-    const min = dif == 'b' ? 100 : dif == 'i' ? 300 : 700
+    const max = dif == 'b' ? 30 : dif == 'i' ? 60 : 99
+    const min = dif == 'b' ? 10 : dif == 'i' ? 10 : 10
     return parseInt(Math.random() * (max - min) + min)
 }
 
