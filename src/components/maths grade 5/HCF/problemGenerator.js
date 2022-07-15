@@ -1,24 +1,7 @@
 import getURLParams from '../../../utils/getURLParams';
 
 const dif = getURLParams.dif;
-
-
-// const checkComposite = (s) => {
-//     if(s==1){
-//         return false
-//     }else if(s==2){
-//         return false
-//     }else if(s==3){
-//         return false
-//     }
-
-//     for (var x = 2; x < s; x++) {
-//         if ((s % 2 == 0)||(s%3==0)) {
-//           return true;
-//         }
-//       }
-//     return false;
-// }
+const lang = getURLParams.lang;
 
 const range = (start,end) => {
     let array = [];
