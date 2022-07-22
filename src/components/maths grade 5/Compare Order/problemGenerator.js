@@ -57,7 +57,7 @@ function generate(){
         options : [],
     }
 
-    problem = {...problem , question : 'Finish my body to make a sequence'}
+    // problem = {...problem , question : 'Finish my body to make a sequence'}
     
     if(dif == 'b'){
         problem = {...problem , data : getData(10,6)}
@@ -70,6 +70,27 @@ function generate(){
     else if(dif == 'a'){
         problem = {...problem , data : getData(43,8)}
         problem = {...problem , options : getOptions(problem.data.data , 100)}
+    }
+
+
+    const translate = {
+        e: `Finish my body to make a sequence`,
+        a: `أنهي جسدي لعمل تسلسل`,
+        p: `زما بدن بشپړ کړئ ترڅو یو ترتیب جوړ کړم`,
+        u: `ایک ترتیب بنانے کے لئے میرے جسم کو ختم کریں۔`,
+        k : `내 몸을 완성해 시퀀스를 만들어`
+    }
+    
+    if (lang == 'a') {
+        problem = { ...problem, question: translate.a }
+    } else if (lang == 'u') {
+        problem = { ...problem, question: translate.u }
+    } else if (lang == 'p') {
+        problem = { ...problem, question: translate.p }
+    } else if(lang == 'k') {
+        problem = { ...problem, question: translate.k }
+    } else{
+        problem = { ...problem, question: translate.e }
     }
 
 

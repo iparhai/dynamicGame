@@ -88,7 +88,8 @@ function generate(){
         questions : [],
         data : [],
         answer : null,
-        options : []
+        options : [],
+        name : entities[Math.floor(Math.random()*5)],
     }
     let randomName = entities[Math.floor(Math.random()*5)];
     if(dif == 'b'){
@@ -108,6 +109,26 @@ function generate(){
         problem = {...problem , questions : `How many books does ${randomName} have?`}
         problem = {...problem , answer : getAnswer(randomName,problem.data)}
         problem = {...problem , options : getOptions(problem.answer , 4 )}
+    }
+
+    const translate = {
+        e: `How many books does ${randomName} have?`,
+        a: `${randomName}؟ كم عدد الكتب الموجودة في`,
+        p: `څومره کتابونه لري؟ ${randomName}`,
+        u: `کے پاس کتنی کتابیں ہیں؟ ${randomName}`,
+        k : `${randomName}은(는) 몇 권의 책을 가지고 있나요?`
+    }
+    
+    if (lang == 'a') {
+        problem = { ...problem, questions: translate.a }
+    } else if (lang == 'u') {
+        problem = { ...problem, questions: translate.u }
+    } else if (lang == 'p') {
+        problem = { ...problem, questions: translate.p }
+    } else if(lang == 'k') {
+        problem = { ...problem, questions: translate.k }
+    } else{
+        problem = { ...problem, questions: translate.e }
     }
     return problem
 }
