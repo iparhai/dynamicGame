@@ -13,6 +13,7 @@ import GlobalState from '../components/HintsContext';
 import { useEffect } from 'react';
 import getAsset from '../utils/getAsset';
 import getURLParams from '../utils/getURLParams';
+import TutorialContext from '../components/TutorialContext';
 // import Hints from '../components/Hints';
 
 
@@ -39,6 +40,7 @@ export default function MathQuiz(props) {
   const [sound, setDound] = React.useState(new Audio(props.backgroundMusic))
   const [mute, setMute] = React.useState(false)
   const [provider, setProvider] = React.useState("")
+  const [tutorial, setTutorial] = React.useState(getURLParams.tutorial == "0" ? false : true)
 
   const retryGame = () => {
     setIsBeginningDone(false)
@@ -67,31 +69,34 @@ export default function MathQuiz(props) {
   return (
     !props.isFinished ? (
       <GlobalState.Provider value={[provider, setProvider]}>
-        <div>
-          {!isLoadingDone ? <Loader isComplete={completeLoading} /> : !isBeginningDone ? (
-            <Beginning isComplete={completeBeginning} soundEffect={props.soundEffect} />
-          ) : (
-            <div className="noselect ">
-              {/* <img src={this.state.images.map()} alt="learning" /> */}
-              <div className="App-header-bar">
-                <span onClick={handleSoundClick}>
-                  {mute ? <i className="fas fa-volume-mute" /> : <i className="fa fa-volume-up " />}
-                </span>
-                <Timmer {...props} />
-                <Lifes {...props} />
-                <Points {...props} />
-                {getURLParams.learn == "1" ? <Hints soundEffect={props.soundEffect} /> : null}
-                {/* 
+        <TutorialContext.Provider value={[tutorial, setTutorial]} >
+          <div>
+            {!isLoadingDone ? <Loader isComplete={completeLoading} /> : !isBeginningDone ? (
+              <Beginning isComplete={completeBeginning} soundEffect={props.soundEffect} />
+            ) : (
+              <div className="noselect ">
+                {/* <img src={this.state.images.map()} alt="learning" /> */}
+                <div className="App-header-bar">
+                  <span onClick={handleSoundClick}>
+                    {mute ? <i className="fas fa-volume-mute" /> : <i className="fa fa-volume-up " />}
+                  </span>
+                  <Timmer {...props} />
+                  <Lifes {...props} />
+                  <Points {...props} />
+                  {getURLParams.learn == "1" ? <Hints soundEffect={props.soundEffect} /> : null}
+
+                  {/* 
               <span onClick={this.props.handleLanguageSwitch}>
                 {this.props.isUrdu ? <i class="fa fa-language " aria-hidden="true" style={{color : "black"}}>اردو</i> : <i class="fa fa-language" aria-hidden="true" style={{color : "black"}}>English</i>}
               </span> */}
+                </div>
+                <div>
+                  <Quiz {...props} objectList={props.objectList} soundEffect={props.soundEffect} />
+                </div>
               </div>
-              <div>
-                <Quiz {...props} objectList={props.objectList} soundEffect={props.soundEffect} />
-              </div>
-            </div>
-          )}
-        </div>
+            )}
+          </div>
+        </TutorialContext.Provider>
       </GlobalState.Provider>
     ) : (
 

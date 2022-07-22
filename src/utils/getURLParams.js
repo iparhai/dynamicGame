@@ -14,5 +14,6 @@ export default {
     // type : c for content, a for assessment
     gender: queryParams.get('gender') ? queryParams.get('gender') : "m",
     lang: queryParams.get('lang') ? queryParams.get('lang') : 'e',  // possible values u (for urdu), e (for english)
-    learn: queryParams.get('learn') ? queryParams.get('learn') : true // 
+    learn: queryParams.get('learn') ? queryParams.get('learn') : true,
+    tutorial: queryParams.get('tutorial') ? queryParams.get('tutorial') : true
 }
