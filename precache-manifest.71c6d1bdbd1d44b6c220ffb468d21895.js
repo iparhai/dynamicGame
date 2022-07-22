@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b31edfea995184b4568d",
+    "revision": "9b32fa79f2e3535074ed",
     "url": "/dynamicGame/static/css/main.b94feb5d.chunk.css"
   },
   {
-    "revision": "b31edfea995184b4568d",
-    "url": "/dynamicGame/static/js/main.1074d091.chunk.js"
+    "revision": "9b32fa79f2e3535074ed",
+    "url": "/dynamicGame/static/js/main.467145d0.chunk.js"
   },
   {
     "revision": "58ecb886ccf82e0d0ec9",
@@ -972,7 +972,7 @@ self.__precacheManifest = [
     "url": "/dynamicGame/static/media/screenboard_orange_long-e91ecbcb5ddaafd2c81b75668060c86792515686b8825466fcbc57559d24ac85.079bc6c8.png"
   },
   {
-    "revision": "cd216b6104d38dd75189d136212b4060",
+    "revision": "128a907e17e7a20699e601eb469dede3",
     "url": "/dynamicGame/index.html"
   }
 ];
