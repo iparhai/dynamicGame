@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import problemGenerator from './problemGenerator';
-import {$} from 'jquery'
+import GlobalState from '../../HintsContext';
+import getURLParams from "../../../utils/getURLParams";
+import { $ } from 'jquery'
 import Items from './Items';
 import './style.css'
 import DragonHead from './images/head@2.png';
@@ -13,7 +15,36 @@ export default function CON(props) {
     const [problem, setProblem] = useState(problemGenerator.generate);
     const [data, setData] = useState(problem.data.data);
     const [option, setOption] = useState(problem.options);
-    const [execute, setExecute] = useState(false)
+    const [execute, setExecute] = useState(false);
+
+
+
+    const [hintState, setHintState] = React.useContext(GlobalState);
+    useEffect(() => {
+        const hintText = {
+            e: `Finish my body to make a sequence`,
+            a: `أنهي جسدي لعمل تسلسل`,
+            p: `زما بدن بشپړ کړئ ترڅو یو ترتیب جوړ کړم`,
+            u: `ایک ترتیب بنانے کے لئے میرے جسم کو ختم کریں۔`,
+            k: `내 몸을 완성해 시퀀스를 만들어`
+        }
+        let hT;
+        if (getURLParams.lang == "a") {
+            hT = hintText.a
+        } else if (getURLParams.lang == "u") {
+            hT = hintText.u
+        } else if (getURLParams.lang == "p") {
+            hT = hintText.p
+        } else if (getURLParams.lang == 'k') {
+            hT = hintText.k
+        }
+        else {
+            hT = hintText.e
+        }
+        setHintState(hT)
+        // setBoard(getAsset.getObjectByProperty("board|n"))
+    }, [])
+
 
     const handleClick = (o) => {
         const updatedArray = [...data];
@@ -27,22 +58,22 @@ export default function CON(props) {
 
     useEffect(() => {
 
-        if (execute == true){
+        if (execute == true) {
             // console.log('Method Executed')
 
             let status = data.every(isSequential);
 
-            function isSequential(el,idx,array){
-                if(idx === 0)
+            function isSequential(el, idx, array) {
+                if (idx === 0)
                     return true
                 else
                     console.log(el.number)
-                    console.log(array[idx-1].number);
-                    return (array[idx-1].number < el.number+1)
+                console.log(array[idx - 1].number);
+                return (array[idx - 1].number < el.number + 1)
             }
-            
+
             setTimeout(() => {
-                if(status==true)
+                if (status == true)
                     // alert('Right Answer')
                     props.onCorrectAnswer()
                 else
@@ -80,7 +111,7 @@ export default function CON(props) {
                     <img src={DragonTail} width='100%' />
                 </div>
             </div>
-            <div className='CON__options' style={{pointerEvents : execute==true?'none':'auto' , opacity : execute==true? '0.5':'' }}>
+            <div className='CON__options' style={{ pointerEvents: execute == true ? 'none' : 'auto', opacity: execute == true ? '0.5' : '' }}>
                 {
                     option.map((obj, idx) => {
                         return (
