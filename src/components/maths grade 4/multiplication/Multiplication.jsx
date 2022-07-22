@@ -3,8 +3,11 @@ import getAsset from '../../../utils/getAsset'
 import Chase from '../../gameType/Chase/Chase'
 import problemGenerator from './problemGenerator'
 import './multiplication.css'
+import TutorialContext from '../../TutorialContext'
+import MultiplicationTutorial from './MultiplicationTutorial'
 const button = getAsset.getObjectByProperty("button|option|n")
 export default function ({ onCorrectAnswer, onWrongAnswer }) {
+    const [tutorial, setTutorial] = React.useContext(TutorialContext)
     const [problem, setProblem] = React.useState(problemGenerator.generate())
     const [options, setOptions] = React.useState(problemGenerator.getOptions(problem.answer))
     const [correct, setCorrect] = React.useState(null)
@@ -24,30 +27,40 @@ export default function ({ onCorrectAnswer, onWrongAnswer }) {
     }, [problem])
     return (
         <div style={{ width: "100vw", height: "100vh" }} className="fade">
+            <button>
 
-            <div class="main-container">
-                <div class="road"></div>
-                <div class="road-sideview"></div>
-            </div>
+            </button>
+            {
+                tutorial &&
+                <MultiplicationTutorial isOver={() => setTutorial(!tutorial)} problem={problem} />
+            }
+            {!tutorial && <>
 
-            <div className="thought_4" style={{ color: "white" }}>
-                <h5 >
-                    {problem.question}
-                </h5>
-            </div>
-            <div className='options'>
-                {
-                    options.map((item, index) => {
-                        return (
-                            <div className='multi_container' onClick={() => { handleOptionClick(item) }}>
-                                <img src={button} className='multi_box' />
-                                <div className='multi_centered' style={{ "pointer-events": "none" }}> {item} </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-            <Chase correct={correct} OnRight={() => onCorrectAnswer()} onWrong={() => onWrongAnswer()} />
+
+                <div class="main-container">
+                    <div class="road"></div>
+                    <div class="road-sideview"></div>
+                </div>
+
+                <div className="thought_4" style={{ color: "white" }}>
+                    <h5 >
+                        {problem.question}
+                    </h5>
+                </div>
+                <div className='options'>
+                    {
+                        options.map((item, index) => {
+                            return (
+                                <div className='multi_container' onClick={() => { handleOptionClick(item) }}>
+                                    <img src={button} className='multi_box' />
+                                    <div className='multi_centered' style={{ "pointer-events": "none" }}> {item} </div>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+                <Chase correct={correct} OnRight={() => onCorrectAnswer()} onWrong={() => onWrongAnswer()} />
+            </>}
         </div>
     )
 }

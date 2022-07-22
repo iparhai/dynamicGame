@@ -167,13 +167,13 @@ export default function Hcf(props) {
             <div className='hcfQuestion'>
                 <h6>Find LCM of <span>{num1}</span> & <span>{num2}</span> by prime factorization method</h6>
             </div>
-            <div>
+            {/* {<div>
                 <button onClick={() => setTutorial(!tutorial)}>{tutorial ? "skip" : "play"}</button>
-            </div>
+            </div>}
             <div>
                 {tutorial && <TutorialLCM nums={[num1, num2]} isOver={() => { setTutorial(!tutorial) }} />}
-            </div>
-            {!tutorial && <div className='hcfGame'>
+            </div>  !tutorial &&*/}
+            {<div className='hcfGame'>
                 <div className='numberprimefactors'>
                     <h5>
                         {
